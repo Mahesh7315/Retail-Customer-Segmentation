@@ -11,23 +11,23 @@ The project uses the **RFM (Recency, Frequency, Monetary)** model to quantify cu
 
   - data/raw/: The 'Online Retail II UCI' dataset.
 
- - data/processed/: The cleaned, processed RFM data.
+  - data/processed/: The cleaned, processed RFM data.
 
 - notebooks/: Contains the main analysis notebook.
 
--- 01_Segmentation_Analysis.ipynb: The main notebook used to import, process, model, and analyze the data.
+  - 01_Segmentation_Analysis.ipynb: The main notebook used to import, process, model, and analyze the data.
 
 - scripts/: Contains reusable Python helper functions.
 
--- data_processing.py: Functions for loading, cleaning, and calculating RFM features.
+  - data_processing.py: Functions for loading, cleaning, and calculating RFM features.
 
--- model.py: Functions for scaling data and building the K-Means model.
+  - model.py: Functions for scaling data and building the K-Means model.
 
 - results/: Contains final outputs.
 
--- results/reports/: CSV files of the final cluster profiles.
+  - results/reports/: CSV files of the final cluster profiles.
 
--- results/plots/: Visualizations of the cluster profiles.
+  - results/plots/: Visualizations of the cluster profiles.
 
 ## How to Run
 Download the data: Get the 'Online Retail II UCI' dataset from Kaggle and place the online_retail_II.csv file in the data/raw/ folder.
