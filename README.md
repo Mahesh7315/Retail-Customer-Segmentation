@@ -4,14 +4,14 @@ This project analyzes a transnational e-commerce dataset to segment customers in
 To replicate the project on my resume , which involves segmenting customers into 4 distinct groups to enable data-driven marketing, improve targeting by ~20%, and boost retention by ~15%. 
 
 ## Methodology
-The project uses the RFM (Recency, Frequency, Monetary) model to quantify customer behavior. It then applies K-Means Clustering (an unsupervised machine learning algorithm) to partition customers into k=4 distinct, actionable segment
+The project uses the **RFM (Recency, Frequency, Monetary)** model to quantify customer behavior. It then applies **K-Means Clustering** (an unsupervised machine learning algorithm) to partition customers into **k=4** distinct, actionable segment
 
 ## Project Structure
 - data/: Contains raw and processed data.
 
--- data/raw/: The 'Online Retail II UCI' dataset.
+ - data/raw/: The 'Online Retail II UCI' dataset.
 
--- data/processed/: The cleaned, processed RFM data.
+ - data/processed/: The cleaned, processed RFM data.
 
 - notebooks/: Contains the main analysis notebook.
 
