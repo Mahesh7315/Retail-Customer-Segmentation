@@ -1,1 +1,26 @@
+# Python cache files
+__pycache__/
+*.py[cod]
 
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environment folder
+venv/
+.venv/
+env/
+.env
+
+# Data files
+# We only want to track the folder structure, not the data itself.
+data/raw/
+data/processed/
+
+# Results files
+# We don't track generated reports or plots
+results/reports/
+results/plots/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
