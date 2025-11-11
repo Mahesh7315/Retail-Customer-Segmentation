@@ -9,7 +9,7 @@ The project uses the **RFM (Recency, Frequency, Monetary)** model to quantify cu
 ## Project Structure
 - data/: Contains raw and processed data.
 
- - data/raw/: The 'Online Retail II UCI' dataset.
+  - data/raw/: The 'Online Retail II UCI' dataset.
 
  - data/processed/: The cleaned, processed RFM data.
 
