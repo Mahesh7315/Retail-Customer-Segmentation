@@ -77,3 +77,60 @@ Computed for each customer:
 ---
 
 ## 📂 Project Structure
+Customer-Segmentation-Retail-Analytics/
+│
+├── data/
+│ ├── raw/ # Original dataset
+│ └── processed/ # Cleaned data
+│
+├── notebooks/
+│ └── 01_Segmentation_Analysis.ipynb
+│
+├── scripts/
+│ └── data_processing.py
+│
+├── results/
+│ ├── plots/ # Cluster and elbow visualizations
+│ └── reports/ # Cluster profiles and summaries
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
+
+
+---
+
+## 📈 Results & Outputs
+- ✅ Cleaned and validated 1M+ records  
+- ✅ Created customer clusters (k=4)  
+- ✅ Generated visualizations:
+  - `results/plots/k_selection.png`
+  - `results/plots/cluster_profiles.png`
+- ✅ Saved customer profiles to:
+  - `results/reports/cluster_profile.csv`
+
+---
+
+## 🧾 Example Business Recommendations
+- **Champions:** Exclusive loyalty programs, private sale invitations.  
+- **Loyalists:** Reward programs, personalized suggestions.  
+- **Regular Shoppers:** Bundle offers, cart reminders.  
+- **At-Risk:** Low-cost reactivation via email / discount nudges.  
+
+---
+
+## 👩‍💻 Author
+**Mahesh** — M.Tech (Materials Science), IIT Bombay  
+Driven by data analytics, machine learning, and business problem-solving.  
+🔗 [LinkedIn](https://linkedin.com) | 🧠 [GitHub Projects](https://github.com)  
+
+---
+
+## 📜 License
+This project is open-source and available under the MIT License.
+
+---
+
+### 🌟 Acknowledgment
+Dataset: *Online Retail II* — UCI Machine Learning Repository  
+Inspired by practical retail analytics case studies.
