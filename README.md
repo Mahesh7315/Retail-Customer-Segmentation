@@ -25,8 +25,8 @@ To group customers into distinct segments based on their purchase patterns and s
 **Source:** Online Retail II Dataset (UCI Machine Learning Repository)  
 **Shape:** ~1,048,575 transactions  
 **Key Columns:**
-| Column | Description |
-|:--|:--|
+| Column | Description | \n
+|:--|:--|\n
 | Invoice | Transaction ID |
 | StockCode | Product code |
 | Description | Product name |
